@@ -1,0 +1,18 @@
+<!-- <p>
+  {{newsItem | json}}
+</p> -->
+  <div class="card" style="width: 18rem;">
+    <a href="{{ newsItem.url }}">
+      <img class="card-img-top" src="./assets/photo.jpg" alt="Card image cap">
+    </a>
+    <div class="card-body">
+      <a class="news-description" href="{{ newsItem.url }}">
+        <h5 class="card-title">{{ newsItem.name }}</h5>
+        <p class="card-text">{{ newsItem.description }}</p>
+      </a>
+      <a *ngIf="newsItem.category" href="#" class="category font-weight-light">
+        <img src="./assets/tag.png" height="10">
+        {{ newsItem.category }}</a>
+      </div>
+    </div>
+

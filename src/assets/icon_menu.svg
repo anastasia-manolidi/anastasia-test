@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-screen-menu_Mobile" transform="translate(-25.000000, -18.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="header" transform="translate(0.000000, -3.000000)">
+                <g id="elements/dropdwn-menu" transform="translate(-0.000000, 3.000000)">
+                    <g id="icons/menu-close" transform="translate(20.378460, 18.249312)">
+                        <path d="M5.23853323,2.74680302 L27.1832264,24.6914962 C27.8565018,25.3647716 28.9482503,25.3647716 29.6215257,24.6914962 C30.2948011,24.0182208 30.2948011,22.9264724 29.6215257,22.253197 L7.67683248,0.308503773 C7.0035571,-0.364771607 5.91180861,-0.364771607 5.23853323,0.308503773 C4.56525785,0.981779152 4.56525785,2.07352764 5.23853323,2.74680302 Z M27.1832264,0.315553288 L5.23853323,22.2602465 C4.56525785,22.9335219 4.56525785,24.0252704 5.23853323,24.6985457 C5.91180861,25.3718211 7.0035571,25.3718211 7.67683248,24.6985457 L29.6215257,2.75385253 C30.2948011,2.08057715 30.2948011,0.988828667 29.6215257,0.315553288 C28.9482503,-0.357722091 27.8565018,-0.357722091 27.1832264,0.315553288 Z" id="icon/menu"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

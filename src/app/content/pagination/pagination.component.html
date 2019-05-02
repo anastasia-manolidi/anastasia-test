@@ -1,0 +1,13 @@
+<div class="container text-center mb-5">
+    <nav aria-label="Page navigation example">
+        <span>displaying page </span>
+        <button [disabled]="newsService.currentPage-1 <= 0" (click)="newsService.paginateNews(newsService.currentPage-1)" class="mr-1 btn btn-outline-dark"> < </button>
+        <span>{{ newsService.currentPage+1 }} </span>
+        <span>of </span>
+        <span>{{ newsService.pages+1 }} </span>
+        <button [disabled]="newsService.currentPage+1 > newsService.pages" (click)="newsService.paginateNews(newsService.currentPage+1)" class="ml-1 btn btn-outline-dark"> > </button>
+        <!-- <ul class="pagination">
+          <li (click)="newsService.paginateNews(page)" *ngFor="let page of newsService.pagesArray" class="page-item"><a class="page-link" href="#">{{page + 1}}</a></li>
+        </ul> -->
+      </nav>
+</div>

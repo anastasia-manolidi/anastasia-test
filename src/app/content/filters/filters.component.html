@@ -1,0 +1,24 @@
+
+<div class="container">
+  <div class="row justify-content-end">
+    <div class="col-md-4">
+        <div class="input-group mb-3">
+            <input (change)="searchFilter($event.target.value)" type="text" class="form-control" placeholder="Search Channels" aria-label="Search Channels" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="search-news">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="input-group mb-3">
+        <select (change)="categoryFilter($event.target.value)" class="custom-select" id="category-select">
+          <option selected value="-1">Choose Category</option>
+          <option  *ngFor="let category of newsService.categoryList" value="{{category}}">{{ category }}</option>
+        </select>
+      </div>
+    </div>
+
+  </div>
+</div>
+
